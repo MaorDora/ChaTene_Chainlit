@@ -1,0 +1,47 @@
+/* הופך את כיוון הדף כולו */
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+
+/* מסדר את תיבות ההודעה */
+
+.message-content {
+    text-align: right;
+    direction: rtl;
+}
+
+
+/* מסדר את תיבת ההקלדה */
+
+#chat-input,
+textarea {
+    direction: rtl;
+    text-align: right;
+}
+
+
+/* הזזת כפתור השליחה לצד שמאל (כדי שיהיה הגיוני בעברית) */
+
+.cl-input-button {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+
+/* סידור רשימות וכותרות */
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    direction: rtl;
+    text-align: right;
+}
